@@ -9,6 +9,19 @@
   </head>
 
   <body>
+    <h1>Dog Information</h1>
+      <form action="http://localhost:3000/dogs" method="POST">
+        <label> Dog Name: <input type="text" name="dogName" id="dogName" /></label><br />
+        <label> Dog Breed: <input type="text" name="dogBreed" id="dogBreed" /></label><br />
+        <input type="submit" id="submit" value="Submit" />
+
+    <h2>Owner Information</h2>
+      <form action="http://localhost:3000/users" method="POST">
+        <label> Owner Name: <input type="text" name="name" id="name"/></label><br />
+        <label> Email Address: <input type="text" name="email" id="email" /></label><br />
+        <input type="submit" Id="submit" value="submit" />
+   </h2>
+     
     <script src="index.js"></script>
   </body>
 

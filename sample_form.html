@@ -12,11 +12,17 @@
   </head>
 
   <body>
-    <h1>Sample Form</h1>
-    <form action="http://localhost:3000/dogs" method="POST">
+    <h1>Dog Information</h1>
+    <form action="http://localhost:3000/cats" method="POST">
       <label> Dog Name: <input type="text" name="dogName" id="dogName" /></label><br />
       <label> Dog Breed: <input type="text" name="dogBreed" id="dogBreed" /></label><br />
       <input type="submit" id="submit" value="Submit" />
+    
+    <h2>Owner Information</h2>
+    <form action="http://localhost:3000/users" method="POST">
+      <label> Name: <input type="text" name="name" id="user"/></label>
+
+    <h2></h2>
     </form>
 
   </body>
